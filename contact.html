@@ -1,0 +1,139 @@
+<html>
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="PersonalWeb.js"></script>
+    <style>
+        @font-face {
+            font-family: 'myFirstFont';
+            src: url(./fonts/sen-regular-webfont.woff);
+        }
+        @font-face {
+            font-family: 'myFirstFont';
+            src: url(./fonts/sen-bold-webfont.woff);
+        }
+        
+
+
+    </style>
+</head>
+<body style="background-color: #d0d3da; margin:0px;">
+    <nav>
+
+        <div class="left-side">
+            <img src="./Assets/logo.png">
+
+            <ul>
+                
+                <li><a href="index.html">Home</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                
+            </ul>
+        </div>
+        <div class="right-side">
+            <div>
+             <a href="contact.html">Contact Me</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-main">
+        <form style="width: 500PX; ">
+
+            <div style="margin-bottom: 25px;">
+                
+                <label for="input-name" style="font-size: 18px; font-weight: 600; font-weight: bold; font-family: 'myFirstFont' ; ">Name</label>
+    
+                <input
+                    type="text"
+                    id="input-name" style="width: 100%;
+                    background-color: aliceblue;
+                    border-radius: 10px;
+                    padding: 10px;
+                    border: 1px solid white;;
+                    box-shadow: 0px 5px #bebdbd;"
+                >
+            </div>
+    
+            <div style="margin-bottom: 25px;">
+                <label for="input-email" style="font-size: 18px; font-weight: 600; font-family: 'myFirstFont' ; font-weight: 500;">Email</label>
+    
+                <input 
+                    type="email"
+                    id="input-email" style="width: 100%;
+                    background-color: aliceblue;
+                    border-radius: 10px;
+                    padding: 10px;
+                    border: 1px solid white;
+                    box-shadow: 0px 5px #bebdbd;"
+                >
+            </div>
+    
+            <div style="margin-bottom: 25px;">
+                <label for="input-number" style="font-size: 18px; font-weight: 600; font-family: 'myFirstFont' ; font-weight: 500;">Phone Number</label>
+                <input 
+                    type="text"
+                    id="input-number" style="width: 100%;
+                    background-color: aliceblue;
+                    border-radius: 10px;
+                    padding: 10px;
+                    border: 1px solid white;
+                    box-shadow: 0px 5px #bebdbd;"
+                >
+            </div>
+    
+            <div style="margin-bottom: 25px;">
+                <label for="select-subject" style="font-size: 18px; font-weight: 600; font-family: 'myFirstFont' ; font-weight: 500;">Subject</label>
+    
+                <select type="text"
+                id="select-subject" style="width: 100%;
+                background-color: aliceblue;
+                border-radius: 10px;
+                padding: 10px;
+                border: 1px solid white;
+                box-shadow: 0px 5px #bebdbd;">
+    
+                    <option hidden></option>
+                    <option>I'm Hiring</option>
+                    <option>Let's Colaboration</option>
+                    <option>Let's Talk</option>
+    
+                </select>
+            </div>
+    
+            <div style="margin-bottom: 25px;">
+                <label for="input-message"  style="font-size: 18px;  font-weight: 600; font-family: 'myFirstFont' ; font-weight: 500; ">Your Message</label>
+    
+                <textarea  
+                    id="input-message" style="width: 100%;
+                    background-color: aliceblue;
+                    border-radius: 10px;
+                    padding: 10px;
+                    border: 1px solid white;
+                    height: 120px;
+                    resize: none;
+                    box-shadow: 0px 5px #bebdbd;"
+                >
+                </textarea>
+    
+            </div>
+                <button
+                    style="
+                    align-content: center;
+                    padding: 5px 30px; 
+                    background-color: rgb(24, 23, 23); 
+                    border: none; 
+                    border-radius: 30px;
+                    color: white;
+                    font-size: 18px; font-family: 'myFirstFont' ;
+                    float: right;
+                    font-weight: 300; 
+                " onclick="submitForm()" type="button">submit</button> 
+                
+        </form>
+        
+
+    </div>
+
+</body>
+</html>

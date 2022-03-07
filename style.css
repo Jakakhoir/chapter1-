@@ -1,0 +1,308 @@
+nav ul{
+    list-style-type: none;
+   
+}
+
+nav ul li{
+    display: inline;
+    margin-right: 30px;
+}
+nav ul li a{
+    
+    color: black;
+    text-decoration: none;
+}
+
+nav{
+    display: flex;
+    background-color: rgb(231, 234, 240);
+    padding-left: 90px;
+    padding-right: 90px;
+    height: 7vh;
+
+}
+
+nav div {
+    display: flex;
+    font-family: cursive;
+}
+nav .left-side {
+    flex: 50%;
+    align-items: center;
+
+    
+}
+
+nav .right-side {
+    
+    flex: 50%;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+
+nav .right-side a{
+ background-color:black;
+ border-radius: 10px;
+ color: white;
+ text-decoration: none;
+ padding: 5px 15px;
+}
+
+.container-main {
+
+   display: flex ;
+    height: 93vh;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.container-content{
+
+    width: 100%;
+    display: flex;
+}
+
+
+
+.container-content .left-side {
+    flex: 70% ;
+    margin-right: 50px;
+    
+    
+    
+}
+
+.container-content .right-side {
+    flex: 30% ;
+    margin-top: 10;
+
+}
+
+.container-skill {
+    padding-top: 10px;
+   display: flex;
+}
+      
+.social-media {
+    display: flex;
+    margin-right: 30px;
+    padding-top: 40px;
+}
+
+.blog-form {
+    display: flex;
+    justify-content: center;
+}
+
+.blog .container-form{
+    width: 500px;
+} 
+
+.blog .container-form h1{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.blog form label{
+font-size: 18px; font-weight: 600; font-weight: bold; font-family: 'myFirstFont' ;
+}
+
+
+.blog form .none-checkbox input , textarea{
+    display: flex;
+    width: 500px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid white;
+    box-shadow: 0px 5px #bebdbd;  
+    margin-bottom: 25px;
+}
+
+.blog form .none-checkbox .Name{
+    display: flex;
+   
+}
+
+.blog form .none-checkbox .Name input{
+    margin-right: 20px;
+    width: 240px;
+}
+.blog form .check-box label{
+    font-size: 18px;  
+    font-weight: 600; 
+    font-family: 'myFirstFont' ; 
+    font-weight: 500; 
+    margin-right: 80px ;
+}
+
+.blog form .input-blog-image-group {
+    font-size: 20px;
+    font-weight: 400;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    background: #f4f3f3;
+    border: 1px solid #c4c4c4;
+    border-radius: 8px;
+    cursor: pointer;
+    }
+    
+    .blog form .input-blog-image-group label p {
+    font-size: 15px;
+    margin-right: 370px;
+    }
+    
+    .blog form .input-blog-image-group label {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 35px;
+    }
+    
+    .blog form .button-group {
+        text-align: right;
+        }
+        
+        .blog form button {
+        margin-top: 20px;
+        padding: 4px;
+        width: 105px;
+        font-size: 17px;
+        background: #000000;
+        border-radius: 20px;
+        border: none;
+        color: rgb(255, 253, 253);
+        cursor: pointer;
+        }
+        
+        .blog hr {
+        border: 1px solid #dbdbdb;
+        width: 80%;
+        margin-right: auto;
+        margin-left: auto;
+       
+        }
+
+        .blog .blog-list {
+            margin-top: 80px;
+            margin-bottom: 80px;
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+        
+            }
+            
+            .blog .blog-list .blog-list-item {
+            width: 25%;
+            padding: 15px;
+            margin-bottom: 20px;
+            border: 2px solid #dbdbdb;
+            border-radius: 8px;
+            background-color: whitesmoke;
+            margin-right: 20px;
+            margin-left: 70px;
+            }
+            
+          
+            .blog .blog-list .blog-list-item .blog-image img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            }
+            
+            .blog .blog-list .blog-list-item .blog-content {
+            padding: 20px;
+          
+            }
+            
+            .blog .blog-list .btn-group {
+            text-align: right;
+            margin-bottom: 20px;
+            }
+            
+            .blog .blog-list .btn-group .btn-edit {
+            padding: 5px 10px;
+            border: 0;
+            border-radius: 4px;
+            background: #dbdbdb;
+            text-decoration: none;
+            color: black;
+            }
+            
+            .blog .blog-list .btn-group .btn-post {
+            padding: 5px 10px;
+            border: 0;
+            border-radius: 4px;
+            background: #ec4d37;
+            color: #fff;
+            text-decoration: none;
+            color: white;
+            }
+            
+            .blog .blog-list h1 a {
+            text-decoration: none;
+            color: #000000;
+            }
+            
+            .blog .blog-list .detail-blog-content {
+            font-weight: 300;
+            font-size: 12px;
+            line-height: 20px;
+            }
+            
+            .blog .blog-list .blog-list-item p {
+            margin-top: 20px;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 20px;
+            text-align: justify;
+            }
+            
+            /* Blog Detail */
+            .blog-detail {
+            display: flex;
+            ;
+            }
+            
+            .blog-detail-container {
+            width: 80%;
+            margin: 40px 0;
+            }
+            
+            .blog-detail-container img {
+            width: 100%;
+            }
+            
+            .blog-detail-container h1 {
+            font-style: normal;
+            font-weight: 800;
+            font-size: 44px;
+            line-height: 120%;
+            margin-bottom: 15px;
+            }
+            
+            .blog-detail-container .author {
+            font-weight: 100;
+            font-size: 20px;
+            line-height: 120%;
+            margin-bottom: 20px;
+            }
+            
+            .blog-detail-container p {
+            margin-top: 40px;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 24px;
+            line-height: 140%;
+            text-align: justify;
+            }
+
+
+
+
+
