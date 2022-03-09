@@ -162,6 +162,7 @@ font-size: 18px; font-weight: 600; font-weight: bold; font-family: 'myFirstFont'
     align-items: center;
     justify-content: space-between;
     height: 35px;
+    width: 500px;
     }
     
     .blog form .button-group {
@@ -194,12 +195,13 @@ font-size: 18px; font-weight: 600; font-weight: bold; font-family: 'myFirstFont'
             display: flex;
             align-items: center;
             flex-wrap: wrap;
+           
         
             }
             
             .blog .blog-list .blog-list-item {
             width: 25%;
-            padding: 15px;
+            padding: 10px;
             margin-bottom: 20px;
             border: 2px solid #dbdbdb;
             border-radius: 8px;
@@ -207,7 +209,9 @@ font-size: 18px; font-weight: 600; font-weight: bold; font-family: 'myFirstFont'
             margin-right: 20px;
             margin-left: 70px;
             }
-            
+            .blog .blog-list .blog-list-item .blog-image {
+                flex: 1;
+                }
           
             .blog .blog-list .blog-list-item .blog-image img {
             width: 100%;
@@ -216,40 +220,45 @@ font-size: 18px; font-weight: 600; font-weight: bold; font-family: 'myFirstFont'
             }
             
             .blog .blog-list .blog-list-item .blog-content {
-            padding: 20px;
+            padding: 10px;
           
+            }
+            .blog .blog-list .blog-list-item .logo {
+                display: flex;
+                
+                padding-top: 15px;
             }
             
             .blog .blog-list .btn-group {
-            text-align: right;
-            margin-bottom: 20px;
+            margin-top: 40px;
+            margin-left: 40px;
+            margin-bottom: 10px;
             }
             
             .blog .blog-list .btn-group .btn-edit {
-            padding: 5px 10px;
-            border: 0;
-            border-radius: 4px;
-            background: #dbdbdb;
-            text-decoration: none;
-            color: black;
+                padding: 5px 70px;
+                border: 0;
+                border-radius: 10px;
+                background: #020014;
+                font-size: larger;
+                text-decoration: none;
+                color: rgb(255, 255, 255);
+                margin-right: 10px;
             }
             
             .blog .blog-list .btn-group .btn-post {
-            padding: 5px 10px;
-            border: 0;
-            border-radius: 4px;
-            background: #ec4d37;
-            color: #fff;
-            text-decoration: none;
-            color: white;
-            }
+                padding: 5px 70px;
+                border: 0;
+                border-radius: 10px;
+                background: #020014;
+                font-size:larger;
+                text-decoration: none;
+                color: rgb(255, 255, 255);
+                margin-right: 10px;
+            }   
             
-            .blog .blog-list h1 a {
-            text-decoration: none;
-            color: #000000;
-            }
-            
-            .blog .blog-list .detail-blog-content {
+           
+            .blog  .blog-list .detail-blog-content {
             font-weight: 300;
             font-size: 12px;
             line-height: 20px;
@@ -264,43 +273,118 @@ font-size: 18px; font-weight: 600; font-weight: bold; font-family: 'myFirstFont'
             }
             
             /* Blog Detail */
-            .blog-detail {
-            display: flex;
-            ;
-            }
+     .main-project-container{
+         margin: 25px;
+    
+     }
+    .main-project-container h1 {
+    text-align: center;
+    margin: 40px auto 40px auto;
+}
+
+.content {
+    margin: 30px 50px 30px 50px;
+}
+
+.project-header-container {
+    display: flex;
+    height: 400px;
+}
+
+.header-leftside {
+    flex: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 70px;
+}
+
+.header-leftside img {
+    height: 80%;
+    width: 100%;
+
+}
+
+.header-rightside {
+    flex: 30%;
+}
+
+h2 {
+    display: block;
+    margin-top: 40px;
+}
+
+div img {
+    width: 30px;
+}
+
+.header-duration {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-duration-tanggal {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.header-duration-tanggal img {
+    margin-right: 7px;
+    margin-left: -15;
+    width: 60px;
+}
+
+.header-duration-waktu {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.header-duration-waktu img {
+    margin-right: 20px;
+    width: 30px;
+}
+
+.header-tech {
+    display: flex;
+}
+
+.header-tech img {
+    margin-right: 20px;
+    
+}
+
+.header-tech-leftside {
+    margin-right: 60px;
+}
+
+.header-tech-leftside div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.header-tech-rightside {
+    flex: 1;
+}
+
+.header-tech-rightside div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+div span {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.content p {
+    text-align: justify;
+}
             
-            .blog-detail-container {
-            width: 80%;
-            margin: 40px 0;
-            }
             
-            .blog-detail-container img {
-            width: 100%;
-            }
-            
-            .blog-detail-container h1 {
-            font-style: normal;
-            font-weight: 800;
-            font-size: 44px;
-            line-height: 120%;
-            margin-bottom: 15px;
-            }
-            
-            .blog-detail-container .author {
-            font-weight: 100;
-            font-size: 20px;
-            line-height: 120%;
-            margin-bottom: 20px;
-            }
-            
-            .blog-detail-container p {
-            margin-top: 40px;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 24px;
-            line-height: 140%;
-            text-align: justify;
-            }
 
 
 
